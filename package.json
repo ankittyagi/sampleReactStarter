@@ -1,0 +1,11 @@
+{
+  "name": "trainingproject",
+  "version": "1.0.0",
+  "description": "This repo provide setup steps to make a react JS project with webpack+npm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ankit tyagi",
+  "license": "MIT"
+}
