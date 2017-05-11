@@ -1,6 +1,7 @@
 const path = require('path');
  
-module.exports = {
+
+var config = {
   context: path.join(__dirname, 'src'),
   entry: [
     './main.js',
@@ -21,8 +22,11 @@ module.exports = {
     ],
   },
   resolve: {
+    extensions: ['.js', '.jsx'],
     modules: [
       path.join(__dirname, 'node_modules'),
     ],
   },
 };
+
+module.exports = config
